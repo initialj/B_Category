@@ -15,6 +15,7 @@
 		C446459E2070D505005C9C3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C446459D2070D505005C9C3E /* main.m */; };
 		C44645A82070D505005C9C3E /* B_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C44645A72070D505005C9C3E /* B_CategoryTests.m */; };
 		C44645B32070D505005C9C3E /* B_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C44645B22070D505005C9C3E /* B_CategoryUITests.m */; };
+		C44645C32070D8A0005C9C3E /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = C44645C12070D8A0005C9C3E /* CTMediator+B.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C44645AE2070D505005C9C3E /* B_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = B_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44645B22070D505005C9C3E /* B_CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_CategoryUITests.m; sourceTree = "<group>"; };
 		C44645B42070D505005C9C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44645C12070D8A0005C9C3E /* CTMediator+B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+B.m"; sourceTree = "<group>"; };
+		C44645C22070D8A0005C9C3E /* CTMediator+B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+B.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		C446458D2070D504005C9C3E /* B_Category */ = {
 			isa = PBXGroup;
 			children = (
+				C44645C02070D87C005C9C3E /* B_Category */,
 				C446458E2070D504005C9C3E /* AppDelegate.h */,
 				C446458F2070D504005C9C3E /* AppDelegate.m */,
 				C44645912070D504005C9C3E /* ViewController.h */,
@@ -130,6 +134,15 @@
 				C44645B42070D505005C9C3E /* Info.plist */,
 			);
 			path = B_CategoryUITests;
+			sourceTree = "<group>";
+		};
+		C44645C02070D87C005C9C3E /* B_Category */ = {
+			isa = PBXGroup;
+			children = (
+				C44645C22070D8A0005C9C3E /* CTMediator+B.h */,
+				C44645C12070D8A0005C9C3E /* CTMediator+B.m */,
+			);
+			path = B_Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				C44645932070D504005C9C3E /* ViewController.m in Sources */,
 				C446459E2070D505005C9C3E /* main.m in Sources */,
+				C44645C32070D8A0005C9C3E /* CTMediator+B.m in Sources */,
 				C44645902070D504005C9C3E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
